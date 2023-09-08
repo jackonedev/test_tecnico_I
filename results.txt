@@ -1,0 +1,1 @@
+{'position': 50, 'final_deque': deque([1315922175317855, 2420358227954738, 4451732831550767], maxlen=3), 'excetion_time': 0.0, 'last_4_digits': '3360'}
