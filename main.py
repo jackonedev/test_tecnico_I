@@ -37,8 +37,8 @@ if __name__ == '__main__':
     maxsize = 3
     startvalue = 2023
     start_position = count(1)
-    # end_position = 2023202320232023
-    end_position = 50
+    end_position = 2023202320232023
+    # end_position = 50
     start_time = time.time()
 
     ##  Variables operativas
