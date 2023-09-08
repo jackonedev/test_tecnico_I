@@ -26,12 +26,8 @@ sys.set_int_max_str_digits(1000000)
 
 
 ##  Funciones
-def sum_last_3_digits(q):
-    return sum(q)
-
-
 def last_4_digits(q):
-    return str(sum_last_3_digits(q=q))[-4:]
+    return str(sum(q))[-4:]
 
 
 ##  =================== MAIN ===================  ##
@@ -56,7 +52,7 @@ if __name__ == '__main__':
     next(start_position)
     while position < end_position:
         position = next(start_position)
-        q.append(sum_last_3_digits(q))
+        q.append(sum(q))
 
     ##  Tiempo de ejecución
     end_time = time.time()
