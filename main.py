@@ -6,7 +6,7 @@ Una máquina arranca su tarea imprimiendo los números 2023, 2024 y 2025.
 Luego, sin interrupción, sigue imprimiendo la suma de los últimos tres 
 números que ha impreso: 6072, 10121, 18218, y así sucesivamente. 
 ¿Serías capaz de determinar cuáles son los cuatro dígitos finales del
-número impreso en la posición 2.023.202.320.232.023? 
+número impreso en la posición 20230? 
 
 Como referencia, en la posición 50, el número impreso es 8188013234823360, 
 que finaliza en 3360.
@@ -37,7 +37,7 @@ if __name__ == '__main__':
     maxsize = 3
     startvalue = 2023
     start_position = count(1)
-    end_position = 2023
+    end_position = 20230
     # end_position = 50
     start_time = time.time()
 
